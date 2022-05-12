@@ -1,0 +1,16 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/board
+    username: root
+    password: root
+
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            clientId: 344888785680-oocbs9e0iitfhf9j1pp320n9lqpq356i.apps.googleusercontent.com
+            clientSecret: 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
